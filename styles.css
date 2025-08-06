@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  background: #f2f2f2;
+  color: #333;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+section {
+  margin-bottom: 3rem;
+}
+h2 {
+  border-left: 5px solid #004d40;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+  border-radius: 8px;
+}
+.gs-section {
+  background-color: #e0f7fa;
+  padding: 2rem 1rem;
+  border-top: 5px solid #00acc1;
+  border-bottom: 5px solid #00acc1;
+  margin-top: 3rem;
+}
+
+.gs-section h2 {
+  text-align: center;
+  color: #007c91;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gs-intro {
+  max-width: 700px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #004d4d;
+}
+
+.gs-cards {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gs-card {
+  background-color: #ffffff;
+  border: 1px solid #b2ebf2;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 188, 212, 0.1);
+  text-align: center;
+}
+
+.gs-card h3 {
+  margin-top: 0;
+  color: #007c91;
+}
+
+.gs-link {
+  color: #007c91;
+  font-weight: bold;
+  word-break: break-all;
+  display: inline-block;
+  margin: 0.5rem 0;
+  text-decoration: none;
+}
+
+.gs-link:hover {
+  text-decoration: underline;
+}
+
+.gs-qr {
+  margin-top: 1rem;
+  max-width: 150px;
+  border: 1px solid #b2ebf2;
+  border-radius: 8px;
+}
+
+.main-header {
+  background-color: #e0f7fa;
+  border-bottom: 4px solid #00acc1;
+  padding: 1rem 2rem;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 1rem;
+}
+
+.title-group h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: #007c91;
+}
+
+.title-group p {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #004d4d;
+}
